@@ -16,7 +16,7 @@ export default function Guides() {
       }
     })
       .then(res => {
-        // console.log(res)
+        
         if(!res.ok){
           throw Error('You must be logged in to view this content')
         }
